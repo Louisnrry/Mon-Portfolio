@@ -96,7 +96,7 @@ nav {
 
 .cta-button {
   display: inline-block;
-  background-color: #0071e3;
+  background-color: #8A2BE2; /* CHANGEMENT: Bleu vers Violet */
   color: white;
   padding: 14px 32px;
   border-radius: 980px; /* Apple-style pill button */
@@ -106,9 +106,9 @@ nav {
   font-size: 1.05rem;
 }
 
-/* Fixed: Added lighter blue on hover */
+/* Fixed: Added lighter violet on hover */
 .cta-button:hover {
-  background-color: #0a84ff;
+  background-color: #9e47eb; /* CHANGEMENT: Bleu clair vers Violet clair */
 }
 
 /* ===== ABOUT SECTION ===== */
@@ -279,7 +279,7 @@ nav {
 
 .project-link {
   display: inline-block;
-  color: #0071e3;
+  color: #8A2BE2; /* CHANGEMENT: Bleu vers Violet */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
@@ -288,7 +288,7 @@ nav {
 
 /* Fixed: Added hover color change */
 .project-link:hover {
-  color: #0a84ff;
+  color: #9e47eb; /* CHANGEMENT: Bleu clair vers Violet clair */
 }
 
 /* ===== CONTACT SECTION / FORM ===== */
@@ -340,8 +340,8 @@ nav {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #0071e3;
-  box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.1);
+  border-color: #8A2BE2; /* CHANGEMENT: Bleu vers Violet */
+  box-shadow: 0 0 0 4px rgba(138, 43, 226, 0.1); /* CHANGEMENT: RGB Violet */
 }
 
 .form-group textarea {
@@ -350,7 +350,7 @@ nav {
 }
 
 .submit-button {
-  background-color: #0071e3;
+  background-color: #8A2BE2; /* CHANGEMENT: Bleu vers Violet */
   color: white;
   padding: 14px;
   border: none;
@@ -364,7 +364,7 @@ nav {
 
 /* Fixed: Added hover state */
 .submit-button:hover {
-  background-color: #0a84ff;
+  background-color: #9e47eb; /* CHANGEMENT: Bleu clair vers Violet clair */
 }
 
 /* ===== FOOTER ===== */
