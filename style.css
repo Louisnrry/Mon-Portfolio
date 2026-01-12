@@ -1,3 +1,6 @@
+/* Import de la police Funnel Display depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
 /* ===== RÉINITIALISATION (Reset) ===== */
 * {
   margin: 0;
@@ -7,11 +10,16 @@
 
 /* ===== STYLES GLOBAUX (Design Apple) ===== */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif;
+  /* Application de Funnel Display pour le texte courant */
+  font-family: 'Funnel Display', sans-serif;
   color: #1d1d1f;
   background-color: #ffffff;
   line-height: 1.6;
+}
+
+/* Application de Cossette Titre pour tous les titres et le logo */
+h1, h2, h3, .logo, .section-title {
+  font-family: 'Cossette Titre', sans-serif;
 }
 
 .container {
@@ -96,7 +104,7 @@ nav {
 
 .cta-button {
   display: inline-block;
-  background-color: #8A2BE2; /* CHANGEMENT: Bleu vers Violet */
+  background-color: #8A2BE2; /* Violet */
   color: white;
   padding: 14px 32px;
   border-radius: 980px; /* Apple-style pill button */
@@ -108,7 +116,7 @@ nav {
 
 /* Fixed: Added lighter violet on hover */
 .cta-button:hover {
-  background-color: #9e47eb; /* CHANGEMENT: Bleu clair vers Violet clair */
+  background-color: #9e47eb; /* Violet clair */
 }
 
 /* ===== ABOUT SECTION ===== */
@@ -279,7 +287,7 @@ nav {
 
 .project-link {
   display: inline-block;
-  color: #8A2BE2; /* CHANGEMENT: Bleu vers Violet */
+  color: #8A2BE2; /* Violet */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
@@ -288,7 +296,7 @@ nav {
 
 /* Fixed: Added hover color change */
 .project-link:hover {
-  color: #9e47eb; /* CHANGEMENT: Bleu clair vers Violet clair */
+  color: #9e47eb; /* Violet clair */
 }
 
 /* ===== CONTACT SECTION / FORM ===== */
@@ -340,8 +348,8 @@ nav {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #8A2BE2; /* CHANGEMENT: Bleu vers Violet */
-  box-shadow: 0 0 0 4px rgba(138, 43, 226, 0.1); /* CHANGEMENT: RGB Violet */
+  border-color: #8A2BE2; /* Violet */
+  box-shadow: 0 0 0 4px rgba(138, 43, 226, 0.1); /* RGB Violet */
 }
 
 .form-group textarea {
@@ -350,7 +358,7 @@ nav {
 }
 
 .submit-button {
-  background-color: #8A2BE2; /* CHANGEMENT: Bleu vers Violet */
+  background-color: #8A2BE2; /* Violet */
   color: white;
   padding: 14px;
   border: none;
@@ -364,7 +372,7 @@ nav {
 
 /* Fixed: Added hover state */
 .submit-button:hover {
-  background-color: #9e47eb; /* CHANGEMENT: Bleu clair vers Violet clair */
+  background-color: #9e47eb; /* Violet clair */
 }
 
 /* ===== FOOTER ===== */
