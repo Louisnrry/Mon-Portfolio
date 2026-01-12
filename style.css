@@ -1,23 +1,18 @@
-/* Import de la police Funnel Display depuis Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 
-/* ===== RÉINITIALISATION (Reset) ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ===== STYLES GLOBAUX (Design Apple) ===== */
 body {
-  /* Application de Funnel Display pour le texte courant */
   font-family: 'Funnel Display', sans-serif;
   color: #1d1d1f;
   background-color: #ffffff;
   line-height: 1.6;
 }
 
-/* Application de Cossette Titre pour tous les titres et le logo */
 h1, h2, h3, .logo, .section-title {
   font-family: 'Cossette Titre', sans-serif;
 }
@@ -28,7 +23,6 @@ h1, h2, h3, .logo, .section-title {
   padding: 0 20px;
 }
 
-/* ===== HEADER / NAVIGATION ===== */
 header {
   background-color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px solid #e5e5e7;
@@ -37,7 +31,7 @@ header {
   top: 0;
   z-index: 100;
   backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px); /* Safari support */
+  -webkit-backdrop-filter: blur(20px);
 }
 
 nav {
@@ -66,12 +60,10 @@ nav {
   transition: opacity 0.3s;
 }
 
-/* Fixed: Added hover opacity */
 .nav-links a:hover {
   opacity: 0.6;
 }
 
-/* ===== HERO SECTION ===== */
 .hero {
   background-color: #ffffff;
   color: #1d1d1f;
@@ -104,22 +96,22 @@ nav {
 
 .cta-button {
   display: inline-block;
-  background-color: #8A2BE2; /* Violet */
+  background-color: #8A2BE2;
   color: white;
   padding: 14px 32px;
-  border-radius: 980px; /* Apple-style pill button */
+  border-radius: 980px;
   text-decoration: none;
   font-weight: 500;
-  transition: all 0.3s;
   font-size: 1.05rem;
+  transition: all 0.4s ease-out;
 }
 
-/* Fixed: Added lighter violet on hover */
 .cta-button:hover {
-  background-color: #9e47eb; /* Violet clair */
+  background-color: #9e47eb;
+  box-shadow: 0 0 25px 5px rgba(138, 43, 226, 0.6);
+  transform: scale(1.02);
 }
 
-/* ===== ABOUT SECTION ===== */
 .about {
   background-color: #ffffff;
   padding: 120px 0;
@@ -141,7 +133,7 @@ nav {
 
 .about-image {
   flex: 1;
-  min-height: 400px; /* Fixed: Added min-height */
+  min-height: 400px;
 }
 
 .about-image img {
@@ -171,7 +163,6 @@ nav {
   font-weight: 400;
 }
 
-/* ===== SKILLS SECTION ===== */
 .skills {
   background-color: #f5f5f7;
   padding: 120px 0;
@@ -196,7 +187,6 @@ nav {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* Fixed: Added lift effect on hover */
 .skill-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
@@ -221,7 +211,6 @@ nav {
   line-height: 1.6;
 }
 
-/* ===== PROJECTS SECTION ===== */
 .projects {
   background-color: #ffffff;
   padding: 120px 0;
@@ -244,7 +233,6 @@ nav {
   transition: all 0.3s;
 }
 
-/* Fixed: Added lift effect on hover */
 .project-card:hover {
   transform: translateY(-4px);
 }
@@ -287,19 +275,17 @@ nav {
 
 .project-link {
   display: inline-block;
-  color: #8A2BE2; /* Violet */
+  color: #8A2BE2;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
   font-size: 1.05rem;
 }
 
-/* Fixed: Added hover color change */
 .project-link:hover {
-  color: #9e47eb; /* Violet clair */
+  color: #9e47eb;
 }
 
-/* ===== CONTACT SECTION / FORM ===== */
 .contact {
   background-color: #f5f5f7;
   padding: 120px 0;
@@ -344,12 +330,11 @@ nav {
   background-color: #fff;
 }
 
-/* Fixed: Added focus states */
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #8A2BE2; /* Violet */
-  box-shadow: 0 0 0 4px rgba(138, 43, 226, 0.1); /* RGB Violet */
+  border-color: #8A2BE2;
+  box-shadow: 0 0 0 4px rgba(138, 43, 226, 0.1);
 }
 
 .form-group textarea {
@@ -358,7 +343,7 @@ nav {
 }
 
 .submit-button {
-  background-color: #8A2BE2; /* Violet */
+  background-color: #8A2BE2;
   color: white;
   padding: 14px;
   border: none;
@@ -366,16 +351,16 @@ nav {
   font-weight: 600;
   font-size: 1.05rem;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.4s ease-out;
   margin-top: 16px;
 }
 
-/* Fixed: Added hover state */
 .submit-button:hover {
-  background-color: #9e47eb; /* Violet clair */
+  background-color: #9e47eb;
+  box-shadow: 0 0 25px 5px rgba(138, 43, 226, 0.6);
+  transform: scale(1.02);
 }
 
-/* ===== FOOTER ===== */
 footer {
   background-color: #f5f5f7;
   color: #6f6f74;
@@ -418,7 +403,6 @@ footer {
   transition: color 0.3s;
 }
 
-/* Fixed: Added hover color */
 .social-links a:hover {
   color: #1d1d1f;
 }
@@ -430,14 +414,10 @@ footer {
   border-top: 1px solid #e5e5e7;
 }
 
-/* ===== MEDIA QUERIES (RESPONSIVE) ===== */
-
-/* Tablette (768px et moins) */
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
     gap: 20px;
-    /* Optional: Add background if menu becomes a dropdown later */
   }
 
   .hero h1 {
@@ -454,15 +434,13 @@ footer {
     gap: 40px;
   }
 
-  /* Ensure image doesn't disappear */
   .about-image {
     width: 100%;
     min-height: auto;
   }
 
-  /* Stack project cards vertically on tablet */
   .project-card {
-    flex-direction: column !important; /* Force overrides nth-child row-reverse */
+    flex-direction: column !important;
     gap: 20px;
     text-align: left;
   }
@@ -479,7 +457,6 @@ footer {
   }
 }
 
-/* Mobile (480px et moins) */
 @media (max-width: 480px) {
   .hero h1 {
     font-size: 1.8rem;
