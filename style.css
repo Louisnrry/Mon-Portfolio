@@ -9,7 +9,7 @@
 body {
   font-family: 'Funnel Display', sans-serif;
   color: #1d1d1f;
-  background-color: #f2f2f2; /* Changé: Gris clair au lieu de blanc */
+  background-color: #f2f2f2; /* CHANGEMENT CLÉ: Fond global passé en gris clair */
   line-height: 1.6;
 }
 
@@ -24,7 +24,7 @@ h1, h2, h3, .logo, .section-title {
 }
 
 header {
-  background-color: rgba(242, 242, 242, 0.8); /* Changé: Adapté au fond gris avec transparence */
+  background-color: rgba(242, 242, 242, 0.8); /* ADAPTATION: Fond gris avec transparence pour matcher le body */
   border-bottom: 1px solid #d2d2d7;
   padding: 20px 0;
   position: sticky;
@@ -65,7 +65,7 @@ nav {
 }
 
 .hero {
-  background-color: #f2f2f2; /* Changé: Gris clair */
+  background-color: #f2f2f2; /* COHÉRENCE: Fond gris clair maintenu */
   color: #1d1d1f;
   padding: 120px 0;
   text-align: center;
@@ -85,7 +85,7 @@ nav {
 
 .hero p {
   font-size: 1.3rem;
-  color: #515154; /* Changé: Légèrement plus foncé pour le contraste sur gris */
+  color: #515154; /* CONTRASTE: Texte légèrement assombri pour lisibilité sur gris */
   margin-bottom: 40px;
   max-width: 600px;
   margin-left: auto;
@@ -113,7 +113,7 @@ nav {
 }
 
 .about {
-  background-color: #f2f2f2; /* Changé: Gris clair */
+  background-color: #f2f2f2; /* COHÉRENCE: Fond gris clair */
   padding: 120px 0;
 }
 
@@ -164,7 +164,7 @@ nav {
 }
 
 .skills {
-  background-color: #e6e6e6; /* Changé: Gris un peu plus sombre pour l'alternance */
+  background-color: #e6e6e6; /* ALTERNANCE: Gris plus foncé pour séparer les sections */
   padding: 120px 0;
 }
 
@@ -177,7 +177,7 @@ nav {
 }
 
 .skill-card {
-  background: #ffffff; /* Changé: Blanc pur pour ressortir sur le gris */
+  background: #ffffff; /* DESIGN: Carte blanche pour ressortir sur le fond gris */
   padding: 40px;
   border-radius: 20px;
   text-align: center;
@@ -212,7 +212,7 @@ nav {
 }
 
 .projects {
-  background-color: #f2f2f2; /* Changé: Gris clair */
+  background-color: #f2f2f2; /* COHÉRENCE: Retour au gris clair standard */
   padding: 120px 0;
 }
 
@@ -228,10 +228,10 @@ nav {
   gap: 40px;
   align-items: center;
   padding: 40px;
-  background: #ffffff; /* Changé: Blanc pur pour ressortir sur le gris */
+  background: #ffffff; /* DESIGN: Fond blanc pour isoler le projet du fond gris */
   border-radius: 20px;
   transition: all 0.3s;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03); /* Ombre légère ajoutée */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
 }
 
 .project-card:hover {
@@ -289,7 +289,7 @@ nav {
 }
 
 .contact {
-  background-color: #e6e6e6; /* Changé: Gris alterné */
+  background-color: #e6e6e6; /* ALTERNANCE: Gris foncé pour la section contact */
   padding: 120px 0;
 }
 
@@ -329,7 +329,7 @@ nav {
   font-family: inherit;
   font-size: 1rem;
   transition: all 0.3s;
-  background-color: #ffffff; /* Reste blanc */
+  background-color: #ffffff; /* VISIBILITÉ: Champs restent blancs sur fond gris */
 }
 
 .form-group input:focus,
@@ -364,7 +364,7 @@ nav {
 }
 
 footer {
-  background-color: #e6e6e6; /* Changé: Gris alterné */
+  background-color: #e6e6e6; /* COHÉRENCE: Gris foncé continu */
   color: #6f6f74;
   padding: 60px 0;
   text-align: center;
