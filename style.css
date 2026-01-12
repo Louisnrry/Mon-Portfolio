@@ -9,7 +9,7 @@
 body {
   font-family: 'Funnel Display', sans-serif;
   color: #1d1d1f;
-  background-color: #ffffff;
+  background-color: #f2f2f2; /* Changé: Gris clair au lieu de blanc */
   line-height: 1.6;
 }
 
@@ -24,8 +24,8 @@ h1, h2, h3, .logo, .section-title {
 }
 
 header {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-bottom: 1px solid #e5e5e7;
+  background-color: rgba(242, 242, 242, 0.8); /* Changé: Adapté au fond gris avec transparence */
+  border-bottom: 1px solid #d2d2d7;
   padding: 20px 0;
   position: sticky;
   top: 0;
@@ -65,7 +65,7 @@ nav {
 }
 
 .hero {
-  background-color: #ffffff;
+  background-color: #f2f2f2; /* Changé: Gris clair */
   color: #1d1d1f;
   padding: 120px 0;
   text-align: center;
@@ -85,7 +85,7 @@ nav {
 
 .hero p {
   font-size: 1.3rem;
-  color: #6f6f74;
+  color: #515154; /* Changé: Légèrement plus foncé pour le contraste sur gris */
   margin-bottom: 40px;
   max-width: 600px;
   margin-left: auto;
@@ -113,7 +113,7 @@ nav {
 }
 
 .about {
-  background-color: #ffffff;
+  background-color: #f2f2f2; /* Changé: Gris clair */
   padding: 120px 0;
 }
 
@@ -157,14 +157,14 @@ nav {
 
 .about-text p {
   font-size: 1.1rem;
-  color: #6f6f74;
+  color: #515154;
   margin-bottom: 24px;
   line-height: 1.8;
   font-weight: 400;
 }
 
 .skills {
-  background-color: #f5f5f7;
+  background-color: #e6e6e6; /* Changé: Gris un peu plus sombre pour l'alternance */
   padding: 120px 0;
 }
 
@@ -177,7 +177,7 @@ nav {
 }
 
 .skill-card {
-  background: white;
+  background: #ffffff; /* Changé: Blanc pur pour ressortir sur le gris */
   padding: 40px;
   border-radius: 20px;
   text-align: center;
@@ -212,7 +212,7 @@ nav {
 }
 
 .projects {
-  background-color: #ffffff;
+  background-color: #f2f2f2; /* Changé: Gris clair */
   padding: 120px 0;
 }
 
@@ -228,13 +228,15 @@ nav {
   gap: 40px;
   align-items: center;
   padding: 40px;
-  background: #f5f5f7;
+  background: #ffffff; /* Changé: Blanc pur pour ressortir sur le gris */
   border-radius: 20px;
   transition: all 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03); /* Ombre légère ajoutée */
 }
 
 .project-card:hover {
   transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
 }
 
 .project-card:nth-child(2) {
@@ -287,7 +289,7 @@ nav {
 }
 
 .contact {
-  background-color: #f5f5f7;
+  background-color: #e6e6e6; /* Changé: Gris alterné */
   padding: 120px 0;
 }
 
@@ -327,7 +329,7 @@ nav {
   font-family: inherit;
   font-size: 1rem;
   transition: all 0.3s;
-  background-color: #fff;
+  background-color: #ffffff; /* Reste blanc */
 }
 
 .form-group input:focus,
@@ -362,11 +364,11 @@ nav {
 }
 
 footer {
-  background-color: #f5f5f7;
+  background-color: #e6e6e6; /* Changé: Gris alterné */
   color: #6f6f74;
   padding: 60px 0;
   text-align: center;
-  border-top: 1px solid #e5e5e7;
+  border-top: 1px solid #d2d2d7;
 }
 
 .footer-content {
@@ -411,7 +413,7 @@ footer {
   font-size: 0.85rem;
   color: #a1a1a6;
   padding-top: 40px;
-  border-top: 1px solid #e5e5e7;
+  border-top: 1px solid #d2d2d7;
 }
 
 @media (max-width: 768px) {
